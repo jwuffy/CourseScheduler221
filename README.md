@@ -1,5 +1,5 @@
 # CourseScheduler221
-Final project for CMPSC 221 at Penn State University. Uses Java and Java Swing components to create an interactive GUI using a three tier application development approach. GUI java code interacts with querie classes that use SQL which then interact with a Java Derby Database.
+Final project for CMPSC 221 at Penn State University. Uses Java and Java Swing components to create an interactive GUI using a three tier application development approach. GUI java code interacts with query classes that use SQL which then interact with a Java Derby Database.
 
 -----------------------------------------------------------------------------------------------------------------------------------------
 Database consists of 5 tables: Class, Course, Schedule, Semester, Student
