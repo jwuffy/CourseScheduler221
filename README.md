@@ -28,7 +28,7 @@ Student table columns:
 - FirstName
 - LastName
 
-Note: Status is a char which denotes whether a schedule entry is scheduled (S) or waitlisted (W). Timestamp is an SQL Timestamp which denotes when the schedule entry was entered. These are used when a student is dropped from the database or when a student drops a class. The timestamp ensures the student who was waitlisted the longest receives the open spot if there happens to be a waitlist for the class.
+Note: Status is a char which denotes whether a schedule entry is scheduled (S) or waitlisted (W). Timestamp is an SQL Timestamp which denotes when the schedule entry was entered. These are used when a student is dropped from the database or when a student drops a class. The timestamp ensures the student who was waitlisted the longest receives the open spot if there are students waitlisted for the class.
 -----------------------------------------------------------------------------------------------------------------------------------------
 GUI supports two sets of interactions for either admin or student user.
 
